@@ -1,0 +1,16 @@
+{
+  "name": "democypress",
+  "version": "1.0.0",
+  "description": "prueba cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-chrome": "cypress run --spec cypress/e2e/orangeTest.cy.js --browser chrome"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
